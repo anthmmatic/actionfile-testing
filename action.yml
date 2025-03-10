@@ -1,0 +1,9 @@
+name: 'anthms test action file'
+description: 'Test composite action'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Echo something
+      run: echo "something"
+      shell: bash
